@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+    
+    int t;
+    cin>>t;
+    while(t--){
+
+
+
+//making character array//
+char a = [10000001];
+cin>>a;
+
+int no_of_operation = 0;
+
+for(int i=0; i< strlen(a)/2; i++){
+
+ no_of_operation += abs(a[strlen(a)-i - 1] - a[i]);
+ 
+ }
+ 
+ cout<<no_of_operation;
+ 
+ }
+ 
+ ]
+
+
+
